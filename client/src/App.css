@@ -1,0 +1,27 @@
+.App {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.tool-button {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.tool-button:hover {
+    background-color: #f0f0f0;
+}
+
+.tool-button.active {
+    background-color: #e0e0e0;
+    border-color: #999;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.whiteboard-container {
+    height: 100vh;
+}
