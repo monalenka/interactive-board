@@ -1,0 +1,42 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "dev": "ts-node-dev src/index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/cors": "^2.8.19",
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+        "fabric": "^5.3.0",
+        "react": "^19.1.1",
+        "react-dom": "^19.1.1",
+        "socket.io": "^4.8.1",
+        "ts-node-dev": "^2.0.0"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.3",
+        "@types/fabric": "^5.3.10",
+        "@types/react": "^19.1.10",
+        "@types/react-dom": "^19.1.7",
+        "@typescript-eslint/eslint-plugin": "^8.40.0",
+        "@typescript-eslint/parser": "^8.40.0",
+        "@vitejs/plugin-react": "^4.7.0",
+        "eslint": "^9.33.0",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-jsx-a11y": "^6.10.2",
+        "eslint-plugin-prettier": "^5.5.4",
+        "eslint-plugin-react": "^7.37.5",
+        "eslint-plugin-react-hooks": "^5.2.0",
+        "prettier": "^3.6.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.2",
+        "vite": "^5.4.10"
+    }
+}
